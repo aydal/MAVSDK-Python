@@ -80,3 +80,4 @@ pip install -e .
 MAVDSK-Python runs the `mavsdk_server` when `start_mavlink()` is called. Under the hood, this will run `mavsdk/bin/mavsdk_server`, which has to be built separately from [MAVSDK](https://github.com/mavlink/MAVSDK) and copied there.
 
 For more help on this step, check the [docs on how to build from source](https://mavsdk.mavlink.io/develop/en/contributing/build.html).
+Follow the steps for Building the Backend and copy mavsdk_server executable from MAVSDK/build/default/src/backend/src to MAVSDK-Python/mavsdk/bin/
